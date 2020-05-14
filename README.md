@@ -83,7 +83,6 @@ module.exports = {
 ### vscode setting 配置
 ```
 {
-  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
   "eslint.autoFixOnSave": true,
   "eslint.validate": [
     {
@@ -92,6 +91,10 @@ module.exports = {
     },
     {
       "language": "javascriptreact",
+      "autoFix": true
+    },
+    {
+      "language": "typescript",
       "autoFix": true
     },
     {
