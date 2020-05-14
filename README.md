@@ -15,6 +15,7 @@ yarn add prettier eslint-config-prettier eslint-plugin-prettier -D
 在你的项目的根目录下创建一个 .eslintrc.js 文件，并将以下内容复制进去：  
 ```
 // .eslintrc.js
+// extends 这一句很关键 plugin:prettier/recommended
 module.exports = {
   extends: ['alloy', 'alloy/react', 'plugin:prettier/recommended'],
   env: {
